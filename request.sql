@@ -1,0 +1,1 @@
+SELECT category_name FROM adverts INNER JOIN costs ON adverts.id = costs.id HAVING AVG(costs.cost) < 500;
